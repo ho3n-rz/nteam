@@ -271,52 +271,10 @@ function create_config( )
     "invsudo"
   },
 
-    sudo_users = {98120772,152065669,61690296,0,tonumber(our_id)},--Sudo users
+    sudo_users = {219587559},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[XxxbotxxX
-Based on LUA. 🌐
+    about_text = [[ XxxbotxxX use /help to now how to worl
 
-🔴 Safe
-🔴 24/7 Online
-🔴Fast Support
-🔴 Powerfull
-
-🔵Sudoes:
-🔵 @Nort_Admin
-🔵 @WebShark25
-
-⚫️ Contact US (If You are report):
-⚫️ @WebShark25_Bot
-⚫️ @Nort_Admin_Bot
-
-⚪️ Website :
-Www.AntiSpam.nort.ir
-
-⚪️ To Buy a group, Please Contact the Sudoes.
-
-⚪️ Git Hub: 
-Http://github.com/nort-ir
-
-⚪️ Join the Official Support group by typing:
-/support
->>>>>>> caa52453e138b7d766c15f30093b89bfe477e719
-]],
-    help_text_realm = [[ Realm Help Text ]],
-    help_text = [[
- 💠 دستورات ربات ضد اسپم نورت 💠
-------------------------------
-🔹لیست راهنمای پلاگین ها 
-/helps
-🔸لیست راهنمای کلی ربات 
-/help_all
-🔹 لیست راهنمای خصوصی 
-/help_pv
-------------------------------
-@nortteam Anti Spam Nort
-]],
-	help_text_super =[[
-Enable Help plugins please.
-]],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
